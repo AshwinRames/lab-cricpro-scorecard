@@ -1,0 +1,92 @@
+body{
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: Nunito Sans;
+}
+h1 {
+	margin-left: 40px;
+	padding-top: 10px;
+	font-size: 50px;
+	font-weight:bolder;
+	text-shadow: 2px 2px 5px grey;
+	font-family: sans-serif;
+}
+
+h1+p {
+	margin-left: 40px;
+	font-size: 25px;
+	font-weight: 700;
+	color: darkgrey;
+	font-family: sans-serif;
+}
+
+table {
+	margin-left: 40px;
+	font-size: 20px;
+	border-collapse: collapse;
+	height: 400px;
+	width: 1100px;
+	background-color: white;
+	font-family: sans-serif;
+}
+th,td{
+	border-bottom: 1px solid lightgray;
+}
+#center {
+	text-align: center;
+	font-family: sans-serif;
+}
+#right {
+	text-align: right;
+	padding-right: 40px;
+	font-family: sans-serif;
+}
+#left {
+	text-align: left;
+	padding-left: 20px;
+	font-family: sans-serif;
+}
+.bowler {
+	color: grey;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: blue;
+	font-family: sans-serif;
+}
+#inning{
+	margin-left: 40px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(240, 87, 87);
+	padding: 10px 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 60px;
+	width: 1060px;
+	font-family: sans-serif;
+}
+p{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 190px;
+	margin-left: 50px;
+	font-size: 18px;
+	font-family: sans-serif;
+    font-style: normal; 
+}
+#logo{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 10px;
+}
